@@ -1,0 +1,56 @@
+/* FONT IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+/* CENTERING */
+body, header, main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+#wrapper {
+  height: 350px;
+  width: 500px;
+  background-color: rgb(221, 215, 215);
+  padding: .3rem;
+}
+
+/* TOP */
+header {
+  height: 40%;
+  background-color: red;
+  border-radius: 10px 10px 0 0;
+
+  color: whitesmoke;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#hello {
+  font-size: 4rem;
+  letter-spacing: 5px;
+  font-weight: bolder;
+}
+#intro {
+  font-size: 1.5rem;
+}
+
+/* MIDDLE */
+main {
+  height: 50%;
+  background-color: white;
+
+  font-size: 5rem;
+  font-weight: bolder;
+  font-family: 'Neucha', cursive;
+}
+
+/* BOTTOM */
+footer {
+  height: 10%;
+  background-color: red;
+  border-radius: 0 0 10px 10px;
+}
